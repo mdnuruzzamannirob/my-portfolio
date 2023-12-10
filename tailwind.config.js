@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        'primary': '#00ABE4',
+        'secondary': '#E9F1FA',
+      },
       fontFamily: {
         clashDisplay: ['Clash Display', 'sans-serif'],
         redHatDisplay: ['Red Hat Display', 'sans-serif'],
