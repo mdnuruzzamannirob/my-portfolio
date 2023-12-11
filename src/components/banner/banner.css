@@ -2,8 +2,6 @@
 
 .circular-container {
   position: relative;
-  width: 450px;
-  height: 450px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,8 +9,6 @@
 }
 
 .circular-container img {
-  width: 60px;
-  height: 60px;
   position: absolute;
 }
 

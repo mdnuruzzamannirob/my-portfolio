@@ -94,15 +94,15 @@ const Banner = () => {
           }}
         />
       </div>
-      <div className="absolute left-0 top-0 w-full h-full py-20">
-        <div className="h-full max-w-7xl mx-5 md:mx-10 xl:mx-auto flex items-center">
-          <div className="flex-1 text-5xl">
+      <div className="absolute left-0 top-20 sm:top-28 lg:top-0 w-full h-full lg:py-20">
+        <div className="h-full max-w-7xl mx-5 md:mx-10 xl:mx-auto flex flex-col-reverse lg:flex-row lg:items-center gap-16">
+          <div className="flex-1 text-2xl md:text-4xl xl:text-5xl text-center lg:text-start">
             <h3>Hi ,</h3>
-            <h3 className="my-5">
+            <h3 className="my-2 lg:my-5">
               I&apos;m
-              <span className="mx-5">Md.</span> <span>Nuruzzaman</span>
+              <span className="mx-2 lg:mx-5">Md.</span> <span> Nuruzzaman</span>
             </h3>
-            <h3 className="text-primary text-4xl mt-5 mb-10">
+            <h3 className="text-primary text-2xl md:text-3xl xl:text-4xl mt-2 lg:mt-5 mb-8 lg:mb-10">
               <Typewriter
                 options={{
                   strings: "MERN Stack Developer",
@@ -111,31 +111,71 @@ const Banner = () => {
                 }}
               />
             </h3>
-            <div className="flex items-center gap-10">
+            <div className="flex items-center justify-center lg:justify-start gap-5 lg:gap-10 flex-wrap">
               <a
                 href="#contact"
-                className="btn btn-sm h-10 bg-primary hover:bg-primary text-white border-none rounded-md px-5 font-medium text-lg"
+                className="btn btn-sm lg:h-10 bg-primary hover:bg-primary text-white border-none rounded-md font-medium lg:text-lg"
               >
                 <BsFillTelephoneFill />
-                Contact
+                Contact Me
               </a>
-              <button className="btn btn-sm h-10 bg-primary hover:bg-primary text-white border-none rounded-md px-5 font-medium text-lg">
+              <button className="btn btn-sm lg:h-10 bg-primary hover:bg-primary text-white border-none rounded-md font-medium lg:text-lg">
                 <FaFileArrowDown /> My Resume
               </button>
             </div>
           </div>
-          <div className="flex-1 flex justify-end">
-            <div className="circular-container">
-              <img className="img1" src={banner1} alt="" />
-              <img className="img2" src={banner2} alt="" />
-              <img className="img3" src={banner3} alt="" />
-              <img className="img4" src={banner4} alt="" />
-              <img className="img4" src={banner5} alt="" />
-              <img className="img4" src={banner6} alt="" />
-              <img className="img4" src={banner7} alt="" />
-              <img className="img4" src={banner8} alt="" />
-              <img className="img4" src={banner9} alt="" />
-              <img className="img4" src={banner10} alt="" />
+          <div className="flex-1 h-full w-full flex items-center justify-center overflow-hidden">
+            <div className="circular-container w-[240px] h-[240px] sm:w-[300px] sm:h-[300px]  lg:w-[400px] lg:h-[400px] xl:w-[450px] xl:h-[450px]">
+              <img
+                className="img1 w-[30px] h-[30px] sm:w-[40px] sm:h-[40px] lg:w-[60px] lg:h-[60px]"
+                src={banner1}
+                alt=""
+              />
+              <img
+                className="img2 w-[30px] h-[30px] sm:w-[40px] sm:h-[40px] lg:w-[60px] lg:h-[60px]"
+                src={banner2}
+                alt=""
+              />
+              <img
+                className="img3 w-[30px] h-[30px] sm:w-[40px] sm:h-[40px] lg:w-[60px] lg:h-[60px]"
+                src={banner3}
+                alt=""
+              />
+              <img
+                className="img4 w-[30px] h-[30px] sm:w-[40px] sm:h-[40px] lg:w-[60px] lg:h-[60px]"
+                src={banner4}
+                alt=""
+              />
+              <img
+                className="img4 w-[30px] h-[30px] sm:w-[40px] sm:h-[40px] lg:w-[60px] lg:h-[60px]"
+                src={banner5}
+                alt=""
+              />
+              <img
+                className="img4 w-[30px] h-[30px] sm:w-[40px] sm:h-[40px] lg:w-[60px] lg:h-[60px]"
+                src={banner6}
+                alt=""
+              />
+              <img
+                className="img4 w-[30px] h-[30px] sm:w-[40px] sm:h-[40px] lg:w-[60px] lg:h-[60px]"
+                src={banner7}
+                alt=""
+              />
+              <img
+                className="img4 w-[30px] h-[30px] sm:w-[40px] sm:h-[40px] lg:w-[60px] lg:h-[60px]"
+                src={banner8}
+                alt=""
+              />
+              <img
+                className="img4 w-[30px] h-[30px] sm:w-[40px] sm:h-[40px] lg:w-[60px] lg:h-[60px]"
+                src={banner9}
+                alt=""
+              />
+              <img
+                className="img4 w-[30px] h-[30px] sm:w-[40px] sm:h-[40px] lg:w-[60px] lg:h-[60px]"
+                src={banner10}
+                alt=""
+              />
             </div>
           </div>
         </div>

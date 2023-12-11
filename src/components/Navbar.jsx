@@ -8,7 +8,7 @@ const Navbar = () => {
     setActiveSection(section);
   };
   return (
-    <nav className="w-full fixed top-0 bg-gray-900 z-50 text-secondary">
+    <nav className="w-full fixed top-0 bg-gray-900 z-[100] text-secondary overflow-hidden">
       <div className="max-w-7xl mx-5 md:mx-10 xl:mx-auto py-6 flex items-center justify-between">
         <div className="flex items-center gap-3">
           <img
@@ -16,11 +16,11 @@ const Navbar = () => {
             src={logo}
             alt=""
           />
-          <h3 className="text-2xl font-semibold font-clashDisplay">
+          <h3 className="text-xl lg:text-2xl font-semibold font-clashDisplay">
             Md. Nuruzzaman
           </h3>
         </div>
-        <div className="flex items-center gap-10 text-lg font-clashDisplay font-medium">
+        <div className="hidden lg:flex items-center gap-10 text-lg font-clashDisplay font-medium">
           <a
             href=""
             className={
