@@ -8,7 +8,7 @@ const Navbar = () => {
     setActiveSection(section);
   };
   return (
-    <nav className="w-full fixed top-0 bg-white shadow">
+    <nav className="w-full fixed top-0 bg-gray-900 z-50 text-secondary">
       <div className="max-w-7xl mx-5 md:mx-10 xl:mx-auto py-6 flex items-center justify-between">
         <div className="flex items-center gap-3">
           <img
