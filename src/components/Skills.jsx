@@ -5,7 +5,7 @@ const Skills = () => {
         <h3 className="text-4xl text-center font-clashDisplay font-semibold underline underline-offset-8 decoration-primary">
           My Skills
         </h3>
-        <div className="flex flex-col lg:flex-row gap-10 mt-16">
+        <div className="flex flex-col lg:flex-row gap-10 mt-10">
           <div className="flex-1 font-medium">
             <div className="p-5 xl:p-10 space-y-5">
               <h3 className="text-2xl font-clashDisplay font-medium mb-5">

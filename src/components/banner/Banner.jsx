@@ -98,7 +98,7 @@ const Banner = () => {
         <div className="h-full max-w-7xl mx-5 md:mx-10 xl:mx-auto flex flex-col-reverse lg:flex-row lg:items-center sm:gap-8 lg:gap-16">
           <div className="flex-1 text-2xl md:text-4xl xl:text-5xl text-center lg:text-start">
             <h3>Hi ,</h3>
-            <h3 className="my-2 lg:my-5">
+            <h3 className="my-2 lg:mb-5">
               I&apos;m
               <span className="mx-2 lg:mx-5">Md.</span> <span> Nuruzzaman</span>
             </h3>
@@ -114,13 +114,13 @@ const Banner = () => {
             <div className="flex items-center justify-center lg:justify-start  flex-wrap">
               <a
                 href="#contact"
-                className="btn btn-sm lg:h-10 bg-primary hover:bg-primary text-white border-none rounded-md font-medium lg:text-lg"
+                className="btn btn-sm bg-primary hover:bg-primary text-white border-none rounded-md font-medium"
               >
                 <BsFillTelephoneFill />
                 Contact Me
               </a>
               <div className="divider divider-horizontal divider-info opacity-40 mx-2 lg:mx-4"></div>
-              <button className="btn btn-sm lg:h-10 bg-primary hover:bg-primary text-white border-none rounded-md font-medium lg:text-lg">
+              <button className="btn btn-sm bg-primary hover:bg-primary text-white border-none rounded-md font-medium">
                 <FaFileArrowDown /> My Resume
               </button>
             </div>

@@ -1,5 +1,5 @@
+import { FaFileArrowDown } from "react-icons/fa6";
 import image from "../assets/MERN-Stack-Development.png";
-import { FaFileCode } from "react-icons/fa";
 
 const About = () => {
   return (
@@ -8,7 +8,7 @@ const About = () => {
         <h3 className="text-4xl text-center font-clashDisplay font-semibold underline underline-offset-8 decoration-primary">
           About Me
         </h3>
-        <div className="flex flex-col lg:flex-row-reverse items-center gap-10 py-16">
+        <div className="flex flex-col lg:flex-row-reverse items-center gap-10 pt-16">
           <div className="flex-1">
             <img src={image} alt="" />
           </div>
@@ -53,12 +53,9 @@ const About = () => {
               </span>
             </p>
             <div className="flex items-center justify-center my-10">
-              <a
-                href="#projects"
-                className="btn btn-sm lg:h-10 bg-primary hover:bg-primary text-white border-none rounded-md font-medium lg:text-lg "
-              >
-                <FaFileCode /> My Projects
-              </a>
+              <button className="btn btn-sm bg-primary hover:bg-primary text-white border-none rounded-md font-medium">
+                <FaFileArrowDown /> My Resume
+              </button>
             </div>
           </div>
         </div>
