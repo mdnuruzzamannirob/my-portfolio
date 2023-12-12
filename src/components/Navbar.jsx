@@ -1,13 +1,24 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import logo from "../assets/logo.png";
 
 const Navbar = () => {
   const [activeSection, setActiveSection] = useState("");
   const [navOpen, setNavOpen] = useState(false);
+  useEffect(() => {
+    const handleNavigation = () => {
+      const hash = window.location.hash.substring(1); // Get the part of the URL after the #
+      setActiveSection(hash);
+    };
 
-  const handleNavLinkClick = (section) => {
-    setActiveSection(section);
-  };
+    handleNavigation();
+
+    window.addEventListener("popstate", handleNavigation);
+
+    return () => {
+      window.removeEventListener("popstate", handleNavigation);
+    };
+  }, []);
+
   return (
     <nav className="w-full fixed top-0 bg-gray-900 z-[100] text-secondary overflow-hidden">
       <div className="max-w-7xl mx-5 md:mx-10 xl:mx-auto py-6 flex items-center justify-between">
@@ -34,7 +45,6 @@ const Navbar = () => {
           </a>
           <a
             href="#about"
-            onClick={() => handleNavLinkClick("about")}
             className={
               activeSection === "about"
                 ? " text-primary underline underline-offset-[6px] decoration-primary decoration-2"
@@ -45,7 +55,6 @@ const Navbar = () => {
           </a>
           <a
             href="#skills"
-            onClick={() => handleNavLinkClick("skills")}
             className={
               activeSection === "skills"
                 ? " text-primary underline underline-offset-[6px] decoration-primary decoration-2"
@@ -56,7 +65,6 @@ const Navbar = () => {
           </a>
           <a
             href="#projects"
-            onClick={() => handleNavLinkClick("projects")}
             className={
               activeSection === "projects"
                 ? " text-primary underline underline-offset-[6px] decoration-primary decoration-2"
@@ -67,7 +75,6 @@ const Navbar = () => {
           </a>
           <a
             href="#contact"
-            onClick={() => handleNavLinkClick("contact")}
             className={
               activeSection === "contact"
                 ? " text-primary underline underline-offset-[6px] decoration-primary decoration-2"
@@ -135,7 +142,6 @@ const Navbar = () => {
             </a>
             <a
               href="#about"
-              onClick={() => handleNavLinkClick("about")}
               className={
                 activeSection === "about"
                   ? " text-primary underline underline-offset-[6px] decoration-primary decoration-2 btn bg-white/10 hover:bg-white/10 border-none"
@@ -146,7 +152,6 @@ const Navbar = () => {
             </a>
             <a
               href="#skills"
-              onClick={() => handleNavLinkClick("skills")}
               className={
                 activeSection === "skills"
                   ? " text-primary underline underline-offset-[6px] decoration-primary decoration-2 btn bg-white/10 hover:bg-white/10 border-none"
@@ -157,7 +162,6 @@ const Navbar = () => {
             </a>
             <a
               href="#projects"
-              onClick={() => handleNavLinkClick("projects")}
               className={
                 activeSection === "projects"
                   ? " text-primary underline underline-offset-[6px] decoration-primary decoration-2 btn bg-white/10 hover:bg-white/10 border-none"
@@ -168,7 +172,6 @@ const Navbar = () => {
             </a>
             <a
               href="#contact"
-              onClick={() => handleNavLinkClick("contact")}
               className={
                 activeSection === "contact"
                   ? " text-primary underline underline-offset-[6px] decoration-primary decoration-2 btn bg-white/10 hover:bg-white/10 border-none"

@@ -1,8 +1,39 @@
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { FaLocationArrow } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
+import toast from "react-hot-toast";
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    const toastId = toast.loading("Progress...", { duration: 10000 });
+
+    emailjs
+      .sendForm(
+        "service_0pblk08",
+        "template_ajxhy9f",
+        form.current,
+        "FJ7RCT2to6rvsU5sS"
+      )
+      .then(
+        (result) => {
+          if (result.text === "OK") {
+            toast.success("Your message sent successfully !", {
+              id: toastId,
+            });
+            e.target.reset();
+          }
+        },
+        (error) => {
+          toast.error(error, { id: toastId });
+        }
+      );
+  };
+
   return (
     <div id="contact" className="py-20 bg-gray-900 text-secondary">
       <div className="max-w-7xl mx-5 md:mx-10 xl:mx-auto">
@@ -46,7 +77,8 @@ const Contact = () => {
 
           {/* form part */}
           <form
-            //  ref={form} onSubmit={sendEmail}
+            ref={form}
+            onSubmit={sendEmail}
             className="flex-[5] font-clashDisplay"
           >
             <div className="flex flex-col lg:flex-row gap-5">
