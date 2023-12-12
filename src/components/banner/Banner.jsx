@@ -1,4 +1,3 @@
-// Banner.jsx
 import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
@@ -114,7 +113,7 @@ const Banner = () => {
             <div className="flex items-center justify-center lg:justify-start  flex-wrap">
               <a
                 href="#contact"
-                className="btn btn-sm bg-primary hover:bg-primary text-white border-none rounded-md font-medium"
+                className="btn btn-sm bg-primary hover:bg-primary text-white border-none rounded font-medium"
               >
                 <BsFillTelephoneFill />
                 Contact Me
@@ -124,7 +123,7 @@ const Banner = () => {
             </div>
           </div>
           <div className="flex-1 h-full w-full flex items-center justify-center overflow-hidden select-none">
-            <div className="circular-container w-[240px] h-[240px] sm:w-[300px] sm:h-[300px]  lg:w-[400px] lg:h-[400px] xl:w-[450px] xl:h-[450px]">
+            <div className="circular-container w-[240px] h-[240px] sm:w-[300px] sm:h-[300px]  lg:w-[400px] lg:h-[400px]">
               <img
                 className="img1 w-[35px] h-[35px] sm:w-[40px] sm:h-[40px] lg:w-[60px] lg:h-[60px]"
                 src={banner1}

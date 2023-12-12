@@ -4,9 +4,9 @@ const PDFDownloadButton = () => {
   return (
     <>
       <a
-        href="PersonalBranding.pdf"
+        href="Resume.pdf"
         download="Resume.pdf"
-        className="btn btn-sm bg-primary hover:bg-primary text-white border-none rounded-md font-medium"
+        className="btn btn-sm bg-primary hover:bg-primary text-white border-none rounded font-medium"
       >
         <FaFileArrowDown /> My Resume
       </a>

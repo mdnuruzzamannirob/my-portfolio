@@ -5,11 +5,14 @@ const Skills = () => {
         <h3 className="text-4xl text-center font-clashDisplay font-semibold underline underline-offset-8 decoration-primary">
           My Skills
         </h3>
-        <div className="flex flex-col lg:flex-row gap-10 mt-10">
+        <div className="flex flex-col lg:flex-row gap-10 mt-16">
           <div className="flex-1 font-medium">
+            <h3 className="text-2xl font-clashDisplay font-medium underline underline-offset-8 decoration-primary/80">
+              Coding Skills
+            </h3>
             <div className="p-5 xl:p-10 space-y-5">
-              <h3 className="text-2xl font-clashDisplay font-medium mb-5">
-                Front-End Skills :
+              <h3 className="text-xl font-clashDisplay font-medium underline underline-offset-8 decoration-rose-600/60">
+                Front-End :
               </h3>
               <div className="">
                 <div className="flex items-center justify-between">
@@ -17,7 +20,7 @@ const Skills = () => {
                   <p>90%</p>
                 </div>
                 <progress
-                  className="progress progress-info bg-secondary outline outline-2"
+                  className="progress progress-info opacity-80 bg-secondary/10"
                   value={90}
                   max="100"
                 ></progress>
@@ -28,7 +31,7 @@ const Skills = () => {
                   <p>70%</p>
                 </div>
                 <progress
-                  className="progress progress-info bg-secondary outline outline-2"
+                  className="progress progress-info opacity-80 bg-secondary/10"
                   value={70}
                   max="100"
                 ></progress>
@@ -39,7 +42,7 @@ const Skills = () => {
                   <p>90%</p>
                 </div>
                 <progress
-                  className="progress progress-info bg-secondary outline outline-2"
+                  className="progress progress-info opacity-80 bg-secondary/10"
                   value={90}
                   max="100"
                 ></progress>
@@ -50,7 +53,7 @@ const Skills = () => {
                   <p>65%</p>
                 </div>
                 <progress
-                  className="progress progress-info bg-secondary outline outline-2"
+                  className="progress progress-info opacity-80 bg-secondary/10"
                   value={65}
                   max="100"
                 ></progress>
@@ -61,13 +64,13 @@ const Skills = () => {
                   <p>80%</p>
                 </div>
                 <progress
-                  className="progress progress-info bg-secondary outline outline-2"
+                  className="progress progress-info opacity-80 bg-secondary/10"
                   value={80}
                   max="100"
                 ></progress>
               </div>
-              <h3 className="text-2xl font-clashDisplay font-medium my-5">
-                Back-End Skills :
+              <h3 className="text-xl font-clashDisplay font-medium underline underline-offset-8 decoration-rose-600/60 pt-5">
+                Back-End :
               </h3>
               <div className="">
                 <div className="flex items-center justify-between">
@@ -75,7 +78,7 @@ const Skills = () => {
                   <p>60%</p>
                 </div>
                 <progress
-                  className="progress progress-info bg-secondary outline outline-2"
+                  className="progress progress-info opacity-80 bg-secondary/10"
                   value={60}
                   max="100"
                 ></progress>
@@ -86,14 +89,14 @@ const Skills = () => {
                   <p>60%</p>
                 </div>
                 <progress
-                  className="progress progress-info bg-secondary outline outline-2"
+                  className="progress progress-info opacity-80 bg-secondary/10"
                   value={60}
                   max="100"
                 ></progress>
               </div>
 
-              <h3 className="text-2xl font-clashDisplay font-medium my-5">
-                Database Skills :
+              <h3 className="text-xl font-clashDisplay font-medium underline underline-offset-8 decoration-rose-600/60 pt-5">
+                Database :
               </h3>
               <div className="">
                 <div className="flex items-center justify-between">
@@ -101,14 +104,14 @@ const Skills = () => {
                   <p>65%</p>
                 </div>
                 <progress
-                  className="progress progress-info bg-secondary outline outline-2"
+                  className="progress progress-info opacity-80 bg-secondary/10"
                   value={65}
                   max="100"
                 ></progress>
               </div>
 
-              <h3 className="text-2xl font-clashDisplay font-medium my-5">
-                Additional Skills :
+              <h3 className="text-xl font-clashDisplay font-medium underline underline-offset-8 decoration-rose-600/60 pt-5">
+                Additional :
               </h3>
               <div className="">
                 <div className="flex items-center justify-between">
@@ -116,7 +119,7 @@ const Skills = () => {
                   <p>80%</p>
                 </div>
                 <progress
-                  className="progress progress-info bg-secondary outline outline-2"
+                  className="progress progress-info opacity-80 bg-secondary/10"
                   value={80}
                   max="100"
                 ></progress>
@@ -127,7 +130,7 @@ const Skills = () => {
                   <p>75%</p>
                 </div>
                 <progress
-                  className="progress progress-info bg-secondary outline outline-2"
+                  className="progress progress-info opacity-80 bg-secondary/10"
                   value={75}
                   max="100"
                 ></progress>
@@ -136,8 +139,11 @@ const Skills = () => {
           </div>
 
           <div className="flex-1 font-medium">
+            <h3 className="text-2xl font-clashDisplay font-medium underline underline-offset-8 decoration-primary/80">
+              Professional Skills
+            </h3>
             <div className="p-5 xl:p-10 space-y-5">
-              <h3 className="text-2xl font-clashDisplay font-medium mb-5">
+              <h3 className="text-xl font-clashDisplay font-medium underline underline-offset-8 decoration-rose-600/60">
                 Development Skills :
               </h3>
               <div className="">
@@ -146,7 +152,7 @@ const Skills = () => {
                   <p>80%</p>
                 </div>
                 <progress
-                  className="progress progress-info bg-secondary outline outline-2"
+                  className="progress progress-info opacity-80 bg-secondary/10"
                   value={80}
                   max="100"
                 ></progress>
@@ -157,7 +163,7 @@ const Skills = () => {
                   <p>60%</p>
                 </div>
                 <progress
-                  className="progress progress-info bg-secondary outline outline-2"
+                  className="progress progress-info opacity-80 bg-secondary/10"
                   value={60}
                   max="100"
                 ></progress>
@@ -168,7 +174,7 @@ const Skills = () => {
                   <p>65%</p>
                 </div>
                 <progress
-                  className="progress progress-info bg-secondary outline outline-2"
+                  className="progress progress-info opacity-80 bg-secondary/10"
                   value={65}
                   max="100"
                 ></progress>
@@ -179,13 +185,13 @@ const Skills = () => {
                   <p>60%</p>
                 </div>
                 <progress
-                  className="progress progress-info bg-secondary outline outline-2"
+                  className="progress progress-info opacity-80 bg-secondary/10"
                   value={60}
                   max="100"
                 ></progress>
               </div>
 
-              <h3 className="text-2xl font-clashDisplay font-medium my-5">
+              <h3 className="text-xl font-clashDisplay font-medium underline underline-offset-8 decoration-rose-600/60 pt-5">
                 Soft Skills :
               </h3>
               <div className="">
@@ -194,7 +200,7 @@ const Skills = () => {
                   <p>65%</p>
                 </div>
                 <progress
-                  className="progress progress-info bg-secondary outline outline-2"
+                  className="progress progress-info opacity-80 bg-secondary/10"
                   value={65}
                   max="100"
                 ></progress>
@@ -205,7 +211,7 @@ const Skills = () => {
                   <p>70%</p>
                 </div>
                 <progress
-                  className="progress progress-info bg-secondary outline outline-2"
+                  className="progress progress-info opacity-80 bg-secondary/10"
                   value={70}
                   max="100"
                 ></progress>
@@ -216,7 +222,7 @@ const Skills = () => {
                   <p>65%</p>
                 </div>
                 <progress
-                  className="progress progress-info bg-secondary outline outline-2"
+                  className="progress progress-info opacity-80 bg-secondary/10"
                   value={65}
                   max="100"
                 ></progress>
@@ -227,7 +233,7 @@ const Skills = () => {
                   <p>65%</p>
                 </div>
                 <progress
-                  className="progress progress-info bg-secondary outline outline-2"
+                  className="progress progress-info opacity-80 bg-secondary/10"
                   value={65}
                   max="100"
                 ></progress>
@@ -238,7 +244,7 @@ const Skills = () => {
                   <p>65%</p>
                 </div>
                 <progress
-                  className="progress progress-info bg-secondary outline outline-2"
+                  className="progress progress-info opacity-80 bg-secondary/10"
                   value={65}
                   max="100"
                 ></progress>
@@ -249,7 +255,7 @@ const Skills = () => {
                   <p>70%</p>
                 </div>
                 <progress
-                  className="progress progress-info bg-secondary outline outline-2"
+                  className="progress progress-info opacity-80 bg-secondary/10"
                   value={70}
                   max="100"
                 ></progress>
@@ -260,7 +266,7 @@ const Skills = () => {
                   <p>65%</p>
                 </div>
                 <progress
-                  className="progress progress-info bg-secondary outline outline-2"
+                  className="progress progress-info opacity-80 bg-secondary/10"
                   value={65}
                   max="100"
                 ></progress>

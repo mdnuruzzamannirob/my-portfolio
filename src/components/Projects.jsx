@@ -21,7 +21,7 @@ const Projects = () => {
               rel="noreferrer"
             >
               <img
-                className="rounded-md transition-transform hover:scale-105"
+                className="rounded transition-transform hover:scale-105"
                 src={project1}
                 alt="project"
               />
@@ -58,34 +58,34 @@ const Projects = () => {
                 Tools Used
               </h3>
               <div className="flex flex-wrap gap-3 items-center mb-5 pl-5">
-                <p className="bg-secondary text-sm text-black font-medium px-2 rounded-md">
+                <p className="bg-secondary text-sm text-black font-medium px-2 rounded">
                   React
                 </p>
-                <p className="bg-secondary text-sm text-black font-medium px-2 rounded-md">
+                <p className="bg-secondary text-sm text-black font-medium px-2 rounded">
                   Node.js
                 </p>
-                <p className="bg-secondary text-sm text-black font-medium px-2 rounded-md">
+                <p className="bg-secondary text-sm text-black font-medium px-2 rounded">
                   Express.js
                 </p>
-                <p className="bg-secondary text-sm text-black font-medium px-2 rounded-md">
+                <p className="bg-secondary text-sm text-black font-medium px-2 rounded">
                   MongoDB
                 </p>
-                <p className="bg-secondary text-sm text-black font-medium px-2 rounded-md">
+                <p className="bg-secondary text-sm text-black font-medium px-2 rounded">
                   Tailwind Css
                 </p>
-                <p className="bg-secondary text-sm text-black font-medium px-2 rounded-md">
+                <p className="bg-secondary text-sm text-black font-medium px-2 rounded">
                   Firebase
                 </p>
-                <p className="bg-secondary text-sm text-black font-medium px-2 rounded-md">
+                <p className="bg-secondary text-sm text-black font-medium px-2 rounded">
                   Stripe
                 </p>
-                <p className="bg-secondary text-sm text-black font-medium px-2 rounded-md">
+                <p className="bg-secondary text-sm text-black font-medium px-2 rounded">
                   Email.js
                 </p>
-                <p className="bg-secondary text-sm text-black font-medium px-2 rounded-md">
+                <p className="bg-secondary text-sm text-black font-medium px-2 rounded">
                   Vercel
                 </p>
-                <p className="bg-secondary text-sm text-black font-medium px-2 rounded-md">
+                <p className="bg-secondary text-sm text-black font-medium px-2 rounded">
                   Github
                 </p>
               </div>
@@ -94,7 +94,7 @@ const Projects = () => {
                 <a
                   target="_blank"
                   href="https://github.com/Md-Nuruzzaman-nirob/invento-wave-client"
-                  className="btn btn-sm bg-primary hover:bg-primary text-white border-none rounded-md font-medium"
+                  className="btn btn-sm bg-primary hover:bg-primary text-white border-none rounded font-medium"
                   rel="noreferrer"
                 >
                   Github Link
@@ -102,7 +102,7 @@ const Projects = () => {
                 <a
                   target="_blank"
                   href="https://invento-wave.web.app/"
-                  className="btn btn-sm bg-primary hover:bg-primary text-white border-none rounded-md font-medium"
+                  className="btn btn-sm bg-primary hover:bg-primary text-white border-none rounded font-medium"
                   rel="noreferrer"
                 >
                   Live Link
@@ -147,28 +147,28 @@ const Projects = () => {
                 Tools Used
               </h3>
               <div className="flex flex-wrap gap-3 items-center mb-5 pl-5">
-                <p className="bg-secondary text-sm text-black font-medium px-2 rounded-md">
+                <p className="bg-secondary text-sm text-black font-medium px-2 rounded">
                   React
                 </p>
-                <p className="bg-secondary text-sm text-black font-medium px-2 rounded-md">
+                <p className="bg-secondary text-sm text-black font-medium px-2 rounded">
                   Node.js
                 </p>
-                <p className="bg-secondary text-sm text-black font-medium px-2 rounded-md">
+                <p className="bg-secondary text-sm text-black font-medium px-2 rounded">
                   Express.js
                 </p>
-                <p className="bg-secondary text-sm text-black font-medium px-2 rounded-md">
+                <p className="bg-secondary text-sm text-black font-medium px-2 rounded">
                   MongoDB
                 </p>
-                <p className="bg-secondary text-sm text-black font-medium px-2 rounded-md">
+                <p className="bg-secondary text-sm text-black font-medium px-2 rounded">
                   Tailwind Css
                 </p>
-                <p className="bg-secondary text-sm text-black font-medium px-2 rounded-md">
+                <p className="bg-secondary text-sm text-black font-medium px-2 rounded">
                   Firebase
                 </p>
-                <p className="bg-secondary text-sm text-black font-medium px-2 rounded-md">
+                <p className="bg-secondary text-sm text-black font-medium px-2 rounded">
                   Vercel
                 </p>
-                <p className="bg-secondary text-sm text-black font-medium px-2 rounded-md">
+                <p className="bg-secondary text-sm text-black font-medium px-2 rounded">
                   Github
                 </p>
               </div>
@@ -177,7 +177,7 @@ const Projects = () => {
                 <a
                   target="_blank"
                   href="https://github.com/Md-Nuruzzaman-nirob/library-hub-client"
-                  className="btn btn-sm bg-primary hover:bg-primary text-white border-none rounded-md font-medium"
+                  className="btn btn-sm bg-primary hover:bg-primary text-white border-none rounded font-medium"
                   rel="noreferrer"
                 >
                   Github Link
@@ -185,7 +185,7 @@ const Projects = () => {
                 <a
                   target="_blank"
                   href="https://library-hub-ef83f.web.app/"
-                  className="btn btn-sm bg-primary hover:bg-primary text-white border-none rounded-md font-medium"
+                  className="btn btn-sm bg-primary hover:bg-primary text-white border-none rounded font-medium"
                   rel="noreferrer"
                 >
                   Live Link
@@ -200,7 +200,7 @@ const Projects = () => {
               rel="noreferrer"
             >
               <img
-                className="rounded-md transition-transform hover:scale-105"
+                className="rounded transition-transform hover:scale-105"
                 src={project2}
                 alt="project"
               />
@@ -220,7 +220,7 @@ const Projects = () => {
               rel="noreferrer"
             >
               <img
-                className="rounded-md transition-transform hover:scale-105"
+                className="rounded transition-transform hover:scale-105"
                 src={project3}
                 alt="project"
               />
@@ -255,28 +255,28 @@ const Projects = () => {
                 Tools Used
               </h3>
               <div className="flex flex-wrap gap-3 items-center mb-5 pl-5">
-                <p className="bg-secondary text-sm text-black font-medium px-2 rounded-md">
+                <p className="bg-secondary text-sm text-black font-medium px-2 rounded">
                   React
                 </p>
-                <p className="bg-secondary text-sm text-black font-medium px-2 rounded-md">
+                <p className="bg-secondary text-sm text-black font-medium px-2 rounded">
                   Node.js
                 </p>
-                <p className="bg-secondary text-sm text-black font-medium px-2 rounded-md">
+                <p className="bg-secondary text-sm text-black font-medium px-2 rounded">
                   Express.js
                 </p>
-                <p className="bg-secondary text-sm text-black font-medium px-2 rounded-md">
+                <p className="bg-secondary text-sm text-black font-medium px-2 rounded">
                   MongoDB
                 </p>
-                <p className="bg-secondary text-sm text-black font-medium px-2 rounded-md">
+                <p className="bg-secondary text-sm text-black font-medium px-2 rounded">
                   Tailwind Css
                 </p>
-                <p className="bg-secondary text-sm text-black font-medium px-2 rounded-md">
+                <p className="bg-secondary text-sm text-black font-medium px-2 rounded">
                   Firebase
                 </p>
-                <p className="bg-secondary text-sm text-black font-medium px-2 rounded-md">
+                <p className="bg-secondary text-sm text-black font-medium px-2 rounded">
                   Vercel
                 </p>
-                <p className="bg-secondary text-sm text-black font-medium px-2 rounded-md">
+                <p className="bg-secondary text-sm text-black font-medium px-2 rounded">
                   Github
                 </p>
               </div>
@@ -285,7 +285,7 @@ const Projects = () => {
                 <a
                   target="_blank"
                   href="https://github.com/Md-Nuruzzaman-nirob/brand-shop-client"
-                  className="btn btn-sm bg-primary hover:bg-primary text-white border-none rounded-md font-medium"
+                  className="btn btn-sm bg-primary hover:bg-primary text-white border-none rounded font-medium"
                   rel="noreferrer"
                 >
                   Github Link
@@ -294,7 +294,7 @@ const Projects = () => {
                   target="_blank"
                   href="https://brand-shop-61d84.web.app/
                   "
-                  className="btn btn-sm bg-primary hover:bg-primary text-white border-none rounded-md font-medium"
+                  className="btn btn-sm bg-primary hover:bg-primary text-white border-none rounded font-medium"
                   rel="noreferrer"
                 >
                   Live Link

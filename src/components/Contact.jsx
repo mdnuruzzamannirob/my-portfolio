@@ -84,11 +84,11 @@ const Contact = () => {
             <div className="flex flex-col lg:flex-row gap-5">
               <div className="flex-1">
                 <label className="font-medium" htmlFor="">
-                  Your Name
+                  Name
                 </label>
                 <input
-                  className="w-full mt-2 px-4 py-2 text-black bg-secondary font-redHatDisplay font-medium border border-transparent outline-none focus:border-primary rounded-md"
-                  placeholder="Enter your name..."
+                  className="w-full mt-2 px-4 py-2 text-black bg-secondary font-redHatDisplay font-medium border border-transparent outline-none focus:border-primary rounded"
+                  placeholder="Enter name..."
                   type="text"
                   name="from_name"
                   id=""
@@ -98,11 +98,11 @@ const Contact = () => {
 
               <div className="flex-1">
                 <label className="font-medium" htmlFor="">
-                  Your Email
+                  Email
                 </label>
                 <input
-                  className="w-full mt-2 px-4 py-2 text-black bg-secondary font-redHatDisplay font-medium border border-transparent outline-none focus:border-primary rounded-md"
-                  placeholder="Enter your email..."
+                  className="w-full mt-2 px-4 py-2 text-black bg-secondary font-redHatDisplay font-medium border border-transparent outline-none focus:border-primary rounded"
+                  placeholder="Enter email..."
                   type="text"
                   name="from_email"
                   id=""
@@ -112,15 +112,15 @@ const Contact = () => {
             </div>
             <div className="flex flex-col w-full mt-5">
               <label className="font-medium" htmlFor="textAria">
-                Your Message
+                Message
               </label>
               <textarea
                 name="message"
                 id="textAria"
                 cols="30"
                 rows="6"
-                className="w-full mt-2 px-3 py-2 text-black bg-secondary font-redHatDisplay font-medium border border-transparent outline-none focus:border-primary rounded-md cursor-text"
-                placeholder="Enter your message..."
+                className="w-full mt-2 px-3 py-2 text-black bg-secondary font-redHatDisplay font-medium border border-transparent outline-none focus:border-primary rounded cursor-text"
+                placeholder="Enter message..."
                 required
               ></textarea>
             </div>
@@ -130,7 +130,7 @@ const Contact = () => {
               data-aos-duration="500"
             >
               <input
-                className="btn btn-sm lg:h-10 px-10 bg-primary hover:bg-primary text-white border-none rounded-md font-medium lg:text-lg"
+                className="btn btn-sm lg:h-10 px-10 bg-primary hover:bg-primary text-white border-none rounded font-medium lg:text-lg"
                 type="submit"
                 value="Submit"
               />
