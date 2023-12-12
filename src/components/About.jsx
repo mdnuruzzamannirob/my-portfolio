@@ -1,5 +1,5 @@
-import { FaFileArrowDown } from "react-icons/fa6";
 import image from "../assets/MERN-Stack-Development.png";
+import PDFDownloadButton from "./PDFDownloadButton";
 
 const About = () => {
   return (
@@ -53,9 +53,7 @@ const About = () => {
               </span>
             </p>
             <div className="flex items-center justify-center my-10">
-              <button className="btn btn-sm bg-primary hover:bg-primary text-white border-none rounded-md font-medium">
-                <FaFileArrowDown /> My Resume
-              </button>
+              <PDFDownloadButton />
             </div>
           </div>
         </div>

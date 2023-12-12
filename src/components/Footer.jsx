@@ -1,6 +1,6 @@
-import { FaFileArrowDown } from "react-icons/fa6";
 import logo from "../assets/logo.png";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import PDFDownloadButton from "./PDFDownloadButton";
 const Footer = () => {
   return (
     <footer className="bg-black text-secondary">
@@ -18,9 +18,7 @@ const Footer = () => {
               </h3>
             </div>
           </div>
-          <button className="btn btn-sm bg-primary hover:bg-primary text-white border-none rounded-md font-medium">
-            <FaFileArrowDown /> My Resume
-          </button>
+          <PDFDownloadButton />
           <div className="flex items-center gap-3">
             <a
               href="https://github.com/Md-Nuruzzaman-nirob"

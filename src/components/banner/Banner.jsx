@@ -13,9 +13,9 @@ import banner7 from "../../assets/react.svg";
 import banner8 from "../../assets/nodejs.svg";
 import banner9 from "../../assets/expres.js.png";
 import banner10 from "../../assets/mongodb.svg";
-import { FaFileArrowDown } from "react-icons/fa6";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import "./banner.css";
+import PDFDownloadButton from "../PDFDownloadButton";
 
 const Banner = () => {
   const particlesInit = useCallback(async (engine) => {
@@ -120,9 +120,7 @@ const Banner = () => {
                 Contact Me
               </a>
               <div className="divider divider-horizontal divider-info opacity-40 mx-2 lg:mx-4"></div>
-              <button className="btn btn-sm bg-primary hover:bg-primary text-white border-none rounded-md font-medium">
-                <FaFileArrowDown /> My Resume
-              </button>
+              <PDFDownloadButton />
             </div>
           </div>
           <div className="flex-1 h-full w-full flex items-center justify-center overflow-hidden select-none">
