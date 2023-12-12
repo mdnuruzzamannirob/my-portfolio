@@ -94,8 +94,8 @@ const Banner = () => {
           }}
         />
       </div>
-      <div className="absolute left-0 top-20 sm:top-28 lg:top-0 w-full h-full lg:py-20">
-        <div className="h-full max-w-7xl mx-5 md:mx-10 xl:mx-auto flex flex-col-reverse lg:flex-row lg:items-center gap-16">
+      <div className="absolute left-0 top-12 sm:top-24 lg:top-0 w-full h-full lg:py-20">
+        <div className="h-full max-w-7xl mx-5 md:mx-10 xl:mx-auto flex flex-col-reverse lg:flex-row lg:items-center sm:gap-8 lg:gap-16">
           <div className="flex-1 text-2xl md:text-4xl xl:text-5xl text-center lg:text-start">
             <h3>Hi ,</h3>
             <h3 className="my-2 lg:my-5">
@@ -111,7 +111,7 @@ const Banner = () => {
                 }}
               />
             </h3>
-            <div className="flex items-center justify-center lg:justify-start gap-5 lg:gap-10 flex-wrap">
+            <div className="flex items-center justify-center lg:justify-start  flex-wrap">
               <a
                 href="#contact"
                 className="btn btn-sm lg:h-10 bg-primary hover:bg-primary text-white border-none rounded-md font-medium lg:text-lg"
@@ -119,60 +119,61 @@ const Banner = () => {
                 <BsFillTelephoneFill />
                 Contact Me
               </a>
+              <div className="divider divider-horizontal divider-info opacity-40 mx-2 lg:mx-4"></div>
               <button className="btn btn-sm lg:h-10 bg-primary hover:bg-primary text-white border-none rounded-md font-medium lg:text-lg">
                 <FaFileArrowDown /> My Resume
               </button>
             </div>
           </div>
-          <div className="flex-1 h-full w-full flex items-center justify-center overflow-hidden">
+          <div className="flex-1 h-full w-full flex items-center justify-center overflow-hidden select-none">
             <div className="circular-container w-[240px] h-[240px] sm:w-[300px] sm:h-[300px]  lg:w-[400px] lg:h-[400px] xl:w-[450px] xl:h-[450px]">
               <img
-                className="img1 w-[30px] h-[30px] sm:w-[40px] sm:h-[40px] lg:w-[60px] lg:h-[60px]"
+                className="img1 w-[35px] h-[35px] sm:w-[40px] sm:h-[40px] lg:w-[60px] lg:h-[60px]"
                 src={banner1}
                 alt=""
               />
               <img
-                className="img2 w-[30px] h-[30px] sm:w-[40px] sm:h-[40px] lg:w-[60px] lg:h-[60px]"
+                className="img2 w-[35px] h-[35px] sm:w-[40px] sm:h-[40px] lg:w-[60px] lg:h-[60px]"
                 src={banner2}
                 alt=""
               />
               <img
-                className="img3 w-[30px] h-[30px] sm:w-[40px] sm:h-[40px] lg:w-[60px] lg:h-[60px]"
+                className="img3 w-[35px] h-[35px] sm:w-[40px] sm:h-[40px] lg:w-[60px] lg:h-[60px]"
                 src={banner3}
                 alt=""
               />
               <img
-                className="img4 w-[30px] h-[30px] sm:w-[40px] sm:h-[40px] lg:w-[60px] lg:h-[60px]"
+                className="img4 w-[35px] h-[35px] sm:w-[40px] sm:h-[40px] lg:w-[60px] lg:h-[60px]"
                 src={banner4}
                 alt=""
               />
               <img
-                className="img4 w-[30px] h-[30px] sm:w-[40px] sm:h-[40px] lg:w-[60px] lg:h-[60px]"
+                className="img4 w-[35px] h-[35px] sm:w-[40px] sm:h-[40px] lg:w-[60px] lg:h-[60px]"
                 src={banner5}
                 alt=""
               />
               <img
-                className="img4 w-[30px] h-[30px] sm:w-[40px] sm:h-[40px] lg:w-[60px] lg:h-[60px]"
+                className="img4 w-[35px] h-[35px] sm:w-[40px] sm:h-[40px] lg:w-[60px] lg:h-[60px]"
                 src={banner6}
                 alt=""
               />
               <img
-                className="img4 w-[30px] h-[30px] sm:w-[40px] sm:h-[40px] lg:w-[60px] lg:h-[60px]"
+                className="img4 w-[35px] h-[35px] sm:w-[40px] sm:h-[40px] lg:w-[60px] lg:h-[60px]"
                 src={banner7}
                 alt=""
               />
               <img
-                className="img4 w-[30px] h-[30px] sm:w-[40px] sm:h-[40px] lg:w-[60px] lg:h-[60px]"
+                className="img4 w-[35px] h-[35px] sm:w-[40px] sm:h-[40px] lg:w-[60px] lg:h-[60px]"
                 src={banner8}
                 alt=""
               />
               <img
-                className="img4 w-[30px] h-[30px] sm:w-[40px] sm:h-[40px] lg:w-[60px] lg:h-[60px]"
+                className="img4 w-[35px] h-[35px] sm:w-[40px] sm:h-[40px] lg:w-[60px] lg:h-[60px]"
                 src={banner9}
                 alt=""
               />
               <img
-                className="img4 w-[30px] h-[30px] sm:w-[40px] sm:h-[40px] lg:w-[60px] lg:h-[60px]"
+                className="img4 w-[35px] h-[35px] sm:w-[40px] sm:h-[40px] lg:w-[60px] lg:h-[60px]"
                 src={banner10}
                 alt=""
               />
