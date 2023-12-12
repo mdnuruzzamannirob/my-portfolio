@@ -7,11 +7,8 @@ const Skills = () => {
         </h3>
         <div className="flex flex-col lg:flex-row gap-10 mt-16">
           <div className="flex-1 font-medium">
-            <h3 className="text-2xl font-clashDisplay font-medium underline underline-offset-4 decoration-primary">
-              Coding Skills
-            </h3>
             <div className="p-5 xl:p-10 space-y-5">
-              <h3 className="text-xl font-clashDisplay font-medium mb-5">
+              <h3 className="text-2xl font-clashDisplay font-medium mb-5">
                 Front-End Skills :
               </h3>
               <div className="">
@@ -69,7 +66,7 @@ const Skills = () => {
                   max="100"
                 ></progress>
               </div>
-              <h3 className="text-xl font-clashDisplay font-medium my-5">
+              <h3 className="text-2xl font-clashDisplay font-medium my-5">
                 Back-End Skills :
               </h3>
               <div className="">
@@ -95,7 +92,7 @@ const Skills = () => {
                 ></progress>
               </div>
 
-              <h3 className="text-xl font-clashDisplay font-medium my-5">
+              <h3 className="text-2xl font-clashDisplay font-medium my-5">
                 Database Skills :
               </h3>
               <div className="">
@@ -110,7 +107,7 @@ const Skills = () => {
                 ></progress>
               </div>
 
-              <h3 className="text-xl font-clashDisplay font-medium my-5">
+              <h3 className="text-2xl font-clashDisplay font-medium my-5">
                 Additional Skills :
               </h3>
               <div className="">
@@ -139,11 +136,8 @@ const Skills = () => {
           </div>
 
           <div className="flex-1 font-medium">
-            <h3 className="text-2xl font-clashDisplay font-medium underline underline-offset-4 decoration-primary">
-              Professional Skills
-            </h3>
             <div className="p-5 xl:p-10 space-y-5">
-              <h3 className="text-xl font-clashDisplay font-medium mb-5">
+              <h3 className="text-2xl font-clashDisplay font-medium mb-5">
                 Development Skills :
               </h3>
               <div className="">
@@ -191,7 +185,7 @@ const Skills = () => {
                 ></progress>
               </div>
 
-              <h3 className="text-xl font-clashDisplay font-medium my-5">
+              <h3 className="text-2xl font-clashDisplay font-medium my-5">
                 Soft Skills :
               </h3>
               <div className="">
