@@ -1,14 +1,14 @@
-import { FaFileArrowDown } from "react-icons/fa6";
+import { PiArrowSquareOutBold } from "react-icons/pi";
 
 const PDFDownloadButton = () => {
   return (
     <>
       <a
-        href="Resume.pdf"
-        download="Resume.pdf"
-        className="btn btn-sm bg-primary hover:bg-primary text-white border-none rounded font-medium"
+        href="resume of Md. Nuruzzaman.pdf"
+        download="resume of Md. Nuruzzaman.pdf"
+        className="btn btn-sm h-10 bg-primary hover:bg-primary text-secondary border-none rounded font-medium"
       >
-        <FaFileArrowDown /> My Resume
+        My Resume <PiArrowSquareOutBold />
       </a>
     </>
   );

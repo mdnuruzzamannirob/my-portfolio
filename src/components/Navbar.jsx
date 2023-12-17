@@ -85,7 +85,7 @@ const Navbar = () => {
           </a>
         </div>
         <div className="flex lg:hidden">
-          <label className="btn btn-sm h-10 w-10 btn-circle bg-secondary hover:bg-white swap swap-rotate">
+          <label className="btn btn-circle bg-secondary hover:bg-white swap swap-rotate">
             {/* this hidden checkbox controls the state */}
             <input onClick={() => setNavOpen(!navOpen)} type="checkbox" />
 

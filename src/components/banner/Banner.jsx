@@ -95,16 +95,19 @@ const Banner = () => {
       </div>
       <div className="absolute left-0 top-12 sm:top-24 lg:top-0 w-full h-full lg:py-20">
         <div className="h-full max-w-7xl mx-5 md:mx-10 xl:mx-auto flex flex-col-reverse lg:flex-row lg:items-center sm:gap-8 lg:gap-16">
-          <div className="flex-1 text-2xl md:text-4xl xl:text-5xl text-center lg:text-start">
+          <div className="flex-1 text-2xl md:text-5xl text-center lg:text-start">
             <h3>Hi ,</h3>
             <h3 className="my-2 lg:mb-5">
               I&apos;m
               <span className="mx-2 lg:mx-5">Md.</span> <span> Nuruzzaman</span>
             </h3>
-            <h3 className="text-primary text-2xl md:text-3xl xl:text-4xl mt-2 lg:mt-5 mb-8 lg:mb-10">
+            <h3 className="text-primary text-2xl md:text-3xl mt-2 lg:mt-5 mb-8 lg:mb-10">
               <Typewriter
                 options={{
-                  strings: "MERN Stack Developer",
+                  strings: [
+                    "Junior Web Developer",
+                    "Expert In MERN Stack Technology",
+                  ],
                   autoStart: true,
                   loop: true,
                 }}
@@ -113,7 +116,7 @@ const Banner = () => {
             <div className="flex items-center justify-center lg:justify-start  flex-wrap">
               <a
                 href="#contact"
-                className="btn btn-sm bg-primary hover:bg-primary text-white border-none rounded font-medium"
+                className="btn btn-sm h-10 bg-primary hover:bg-primary text-secondary border-none rounded font-medium"
               >
                 <BsFillTelephoneFill />
                 Contact Me
