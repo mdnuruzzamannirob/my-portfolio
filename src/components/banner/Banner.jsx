@@ -104,10 +104,7 @@ const Banner = () => {
             <h3 className="text-primary text-2xl md:text-3xl mt-2 lg:mt-5 mb-8 lg:mb-10">
               <Typewriter
                 options={{
-                  strings: [
-                    "Junior Web Developer",
-                    "Expert In MERN Stack Technology",
-                  ],
+                  strings: ["Junior Web Developer", "Junior React Developer"],
                   autoStart: true,
                   loop: true,
                 }}
