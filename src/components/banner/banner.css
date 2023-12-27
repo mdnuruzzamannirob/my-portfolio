@@ -3,6 +3,9 @@
   white-space: nowrap;
   position: relative;
 }
+.scroll-container:hover .circular-container {
+  animation-play-state: paused;
+}
 
 .scroll-container::before,
 .scroll-container::after {
