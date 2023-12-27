@@ -34,7 +34,7 @@ const Navbar = () => {
         </div>
         <div className="hidden lg:flex items-center gap-10 text-lg font-clashDisplay font-medium">
           <a
-            href=""
+            href="/"
             className={
               activeSection === ""
                 ? " text-primary underline underline-offset-[6px] decoration-primary decoration-2"
@@ -118,15 +118,19 @@ const Navbar = () => {
           } duration-700 ease-in-out`}
         >
           <div className="flex items-center justify-center h-[96px]">
-            <div className="flex items-center gap-3">
+            <div className="flex items-start gap-3">
               <img
                 className="w-8 rounded-full outline-none border-none"
                 src={logo}
                 alt=""
               />
-              <h3 className="text-xl lg:text-2xl font-semibold font-clashDisplay">
-                Md. Nuruzzaman
-              </h3>
+              <div>
+                {" "}
+                <h3 className="text-lg sm:text-xl font-semibold font-clashDisplay">
+                  Md. Nuruzzaman
+                </h3>
+                <small>A junior web developer</small>
+              </div>
             </div>
           </div>
           <div className="flex flex-col gap-4 lg:hidden font-Epilogue font-semibold border-t py-12">
@@ -134,8 +138,8 @@ const Navbar = () => {
               href=""
               className={
                 activeSection === ""
-                  ? " text-primary underline underline-offset-[6px] decoration-primary decoration-2 btn bg-white/10 hover:bg-white/10 border-none"
-                  : "hover:underline underline-offset-[6px] decoration-2 decoration-primary btn bg-white/5 hover:bg-white/10 text-secondary border-none"
+                  ? " text-primary underline underline-offset-[6px] decoration-primary decoration-2 btn bg-white/10 hover:bg-white/10 border-none text-base"
+                  : "hover:underline underline-offset-[6px] decoration-2 decoration-primary btn bg-white/5 hover:bg-white/10 text-secondary border-none text-base"
               }
             >
               Home
@@ -144,8 +148,8 @@ const Navbar = () => {
               href="#about"
               className={
                 activeSection === "about"
-                  ? " text-primary underline underline-offset-[6px] decoration-primary decoration-2 btn bg-white/10 hover:bg-white/10 border-none"
-                  : "hover:underline underline-offset-[6px] decoration-2 decoration-primary btn bg-white/5 hover:bg-white/10 text-secondary border-none"
+                  ? " text-primary underline underline-offset-[6px] decoration-primary decoration-2 btn bg-white/10 hover:bg-white/10 border-none text-base"
+                  : "hover:underline underline-offset-[6px] decoration-2 decoration-primary btn bg-white/5 hover:bg-white/10 text-secondary border-none text-base"
               }
             >
               About
@@ -154,8 +158,8 @@ const Navbar = () => {
               href="#skills"
               className={
                 activeSection === "skills"
-                  ? " text-primary underline underline-offset-[6px] decoration-primary decoration-2 btn bg-white/10 hover:bg-white/10 border-none"
-                  : "hover:underline underline-offset-[6px] decoration-2 decoration-primary btn bg-white/5 hover:bg-white/10 text-secondary border-none"
+                  ? " text-primary underline underline-offset-[6px] decoration-primary decoration-2 btn bg-white/10 hover:bg-white/10 border-none text-base"
+                  : "hover:underline underline-offset-[6px] decoration-2 decoration-primary btn bg-white/5 hover:bg-white/10 text-secondary border-none text-base"
               }
             >
               Skills
@@ -164,8 +168,8 @@ const Navbar = () => {
               href="#projects"
               className={
                 activeSection === "projects"
-                  ? " text-primary underline underline-offset-[6px] decoration-primary decoration-2 btn bg-white/10 hover:bg-white/10 border-none"
-                  : "hover:underline underline-offset-[6px] decoration-2 decoration-primary btn bg-white/5 hover:bg-white/10 text-secondary border-none"
+                  ? " text-primary underline underline-offset-[6px] decoration-primary decoration-2 btn bg-white/10 hover:bg-white/10 border-none text-base"
+                  : "hover:underline underline-offset-[6px] decoration-2 decoration-primary btn bg-white/5 hover:bg-white/10 text-secondary border-none text-base"
               }
             >
               Projects
@@ -174,8 +178,8 @@ const Navbar = () => {
               href="#contact"
               className={
                 activeSection === "contact"
-                  ? " text-primary underline underline-offset-[6px] decoration-primary decoration-2 btn bg-white/10 hover:bg-white/10 border-none"
-                  : "hover:underline underline-offset-[6px] decoration-2 decoration-primary btn bg-white/5 hover:bg-white/10 text-secondary border-none"
+                  ? " text-primary underline underline-offset-[6px] decoration-primary decoration-2 btn bg-white/10 hover:bg-white/10 border-none text-base"
+                  : "hover:underline underline-offset-[6px] decoration-2 decoration-primary btn bg-white/5 hover:bg-white/10 text-secondary border-none text-base"
               }
             >
               Contact

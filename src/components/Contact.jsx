@@ -35,7 +35,7 @@ const Contact = () => {
   };
 
   return (
-    <div id="contact" className="py-20 bg-gray-900 text-secondary">
+    <div id="contact" className="pt-24 lg:py-20 bg-gray-900 text-secondary">
       <div className="max-w-7xl mx-5 md:mx-10 xl:mx-auto">
         <h3 className="text-4xl text-center font-clashDisplay font-semibold underline underline-offset-8 decoration-primary">
           Contact Me

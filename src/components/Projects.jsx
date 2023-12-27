@@ -3,7 +3,7 @@ import project2 from "../assets/library-hub.png";
 import project3 from "../assets/brand-shop.png";
 const Projects = () => {
   return (
-    <div id="projects" className="py-20 bg-gray-900 text-secondary">
+    <div id="projects" className="pt-24 lg:py-20 bg-gray-900 text-secondary">
       <div className="max-w-7xl mx-5 md:mx-10 xl:mx-auto">
         <h3 className="text-4xl text-center font-clashDisplay font-semibold underline underline-offset-8 decoration-primary">
           My Projects
@@ -57,35 +57,35 @@ const Projects = () => {
               <h3 className="text-xl font-clashDisplay font-medium mt-4 mb-2">
                 Tools Used
               </h3>
-              <div className="flex flex-wrap gap-3 items-center mb-5 pl-5">
-                <p className="bg-secondary text-sm text-black font-medium px-2 rounded">
+              <div className="flex flex-wrap gap-3 items-center mb-5 pl-5 text-secondary">
+                <p className="bg-primary text-sm font-medium px-3 py-1 rounded">
                   React
                 </p>
-                <p className="bg-secondary text-sm text-black font-medium px-2 rounded">
+                <p className="bg-lime-600 text-sm font-medium px-3 py-1 rounded">
                   Node.js
                 </p>
-                <p className="bg-secondary text-sm text-black font-medium px-2 rounded">
+                <p className="bg-slate-500 text-sm font-medium px-3 py-1 rounded">
                   Express.js
                 </p>
-                <p className="bg-secondary text-sm text-black font-medium px-2 rounded">
+                <p className="bg-green-600 text-sm font-medium px-3 py-1 rounded">
                   MongoDB
                 </p>
-                <p className="bg-secondary text-sm text-black font-medium px-2 rounded">
+                <p className="bg-primary text-sm font-medium px-3 py-1 rounded">
                   Tailwind Css
                 </p>
-                <p className="bg-secondary text-sm text-black font-medium px-2 rounded">
+                <p className="bg-yellow-500 text-sm text-white font-medium px-3 py-1 rounded">
                   Firebase
                 </p>
-                <p className="bg-secondary text-sm text-black font-medium px-2 rounded">
+                <p className="bg-indigo-500 text-sm font-medium px-3 py-1 rounded">
                   Stripe
                 </p>
-                <p className="bg-secondary text-sm text-black font-medium px-2 rounded">
+                <p className="bg-orange-400 text-white text-sm font-medium px-3 py-1 rounded">
                   Email.js
                 </p>
-                <p className="bg-secondary text-sm text-black font-medium px-2 rounded">
+                <p className="bg-black text-sm font-medium px-3 py-1 rounded">
                   Vercel
                 </p>
-                <p className="bg-secondary text-sm text-black font-medium px-2 rounded">
+                <p className="bg-secondary text-sm text-black font-medium px-3 py-1 rounded">
                   Github
                 </p>
               </div>
@@ -93,8 +93,8 @@ const Projects = () => {
               <div className="flex items-center justify-center flex-wrap gap-4 mt-10">
                 <a
                   target="_blank"
-                  href="https://github.com/Md-Nuruzzaman-nirob/invento-wave-client"
-                  className="btn btn-sm bg-primary hover:bg-primary text-white border-none rounded font-medium"
+                  href="https://github.com/mdnuruzzamannirob/invento-wave-client"
+                  className="btn btn-sm bg-secondary hover:bg-secondary text-black border-none rounded font-medium"
                   rel="noreferrer"
                 >
                   Github Link
@@ -146,29 +146,29 @@ const Projects = () => {
               <h3 className="text-xl font-clashDisplay font-medium mt-4 mb-2">
                 Tools Used
               </h3>
-              <div className="flex flex-wrap gap-3 items-center mb-5 pl-5">
-                <p className="bg-secondary text-sm text-black font-medium px-2 rounded">
+              <div className="flex flex-wrap gap-3 items-center mb-5 pl-5 text-secondary">
+                <p className="bg-primary text-sm font-medium px-3 py-1 rounded">
                   React
                 </p>
-                <p className="bg-secondary text-sm text-black font-medium px-2 rounded">
+                <p className="bg-lime-600 text-sm font-medium px-3 py-1 rounded">
                   Node.js
                 </p>
-                <p className="bg-secondary text-sm text-black font-medium px-2 rounded">
+                <p className="bg-slate-500 text-sm font-medium px-3 py-1 rounded">
                   Express.js
                 </p>
-                <p className="bg-secondary text-sm text-black font-medium px-2 rounded">
+                <p className="bg-green-600 text-sm font-medium px-3 py-1 rounded">
                   MongoDB
                 </p>
-                <p className="bg-secondary text-sm text-black font-medium px-2 rounded">
+                <p className="bg-primary text-sm font-medium px-3 py-1 rounded">
                   Tailwind Css
                 </p>
-                <p className="bg-secondary text-sm text-black font-medium px-2 rounded">
+                <p className="bg-yellow-500 text-sm text-white font-medium px-3 py-1 rounded">
                   Firebase
                 </p>
-                <p className="bg-secondary text-sm text-black font-medium px-2 rounded">
+                <p className="bg-black text-sm font-medium px-3 py-1 rounded">
                   Vercel
                 </p>
-                <p className="bg-secondary text-sm text-black font-medium px-2 rounded">
+                <p className="bg-secondary text-sm text-black font-medium px-3 py-1 rounded">
                   Github
                 </p>
               </div>
@@ -176,8 +176,8 @@ const Projects = () => {
               <div className="flex items-center justify-center flex-wrap gap-4 mt-10">
                 <a
                   target="_blank"
-                  href="https://github.com/Md-Nuruzzaman-nirob/library-hub-client"
-                  className="btn btn-sm bg-primary hover:bg-primary text-white border-none rounded font-medium"
+                  href="https://github.com/mdnuruzzamannirob/library-hub-client"
+                  className="btn btn-sm bg-secondary hover:bg-secondary text-black border-none rounded font-medium"
                   rel="noreferrer"
                 >
                   Github Link
@@ -254,29 +254,29 @@ const Projects = () => {
               <h3 className="text-xl font-clashDisplay font-medium mt-4 mb-2">
                 Tools Used
               </h3>
-              <div className="flex flex-wrap gap-3 items-center mb-5 pl-5">
-                <p className="bg-secondary text-sm text-black font-medium px-2 rounded">
+              <div className="flex flex-wrap gap-3 items-center mb-5 pl-5 text-secondary">
+                <p className="bg-primary text-sm font-medium px-3 py-1 rounded">
                   React
                 </p>
-                <p className="bg-secondary text-sm text-black font-medium px-2 rounded">
+                <p className="bg-lime-600 text-sm font-medium px-3 py-1 rounded">
                   Node.js
                 </p>
-                <p className="bg-secondary text-sm text-black font-medium px-2 rounded">
+                <p className="bg-slate-500 text-sm font-medium px-3 py-1 rounded">
                   Express.js
                 </p>
-                <p className="bg-secondary text-sm text-black font-medium px-2 rounded">
+                <p className="bg-green-600 text-sm font-medium px-3 py-1 rounded">
                   MongoDB
                 </p>
-                <p className="bg-secondary text-sm text-black font-medium px-2 rounded">
+                <p className="bg-primary text-sm font-medium px-3 py-1 rounded">
                   Tailwind Css
                 </p>
-                <p className="bg-secondary text-sm text-black font-medium px-2 rounded">
+                <p className="bg-yellow-500 text-sm text-white font-medium px-3 py-1 rounded">
                   Firebase
                 </p>
-                <p className="bg-secondary text-sm text-black font-medium px-2 rounded">
+                <p className="bg-black text-sm font-medium px-3 py-1 rounded">
                   Vercel
                 </p>
-                <p className="bg-secondary text-sm text-black font-medium px-2 rounded">
+                <p className="bg-secondary text-sm text-black font-medium px-3 py-1 rounded">
                   Github
                 </p>
               </div>
@@ -284,8 +284,8 @@ const Projects = () => {
               <div className="flex items-center justify-center flex-wrap gap-4 mt-10">
                 <a
                   target="_blank"
-                  href="https://github.com/Md-Nuruzzaman-nirob/brand-shop-client"
-                  className="btn btn-sm bg-primary hover:bg-primary text-white border-none rounded font-medium"
+                  href="https://github.com/mdnuruzzamannirob/brand-shop-client"
+                  className="btn btn-sm bg-secondary hover:bg-secondary text-black border-none rounded font-medium"
                   rel="noreferrer"
                 >
                   Github Link

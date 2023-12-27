@@ -6,12 +6,13 @@ import banner1 from "../../assets/html5.svg";
 import banner2 from "../../assets/css3.svg";
 import banner3 from "../../assets/tailwindcss.svg";
 import banner4 from "../../assets/javascript.svg";
-import banner5 from "../../assets/github2.svg";
-import banner6 from "../../assets/firebase.svg";
-import banner7 from "../../assets/react.svg";
-import banner8 from "../../assets/nodejs.svg";
-import banner9 from "../../assets/expres.js.png";
-import banner10 from "../../assets/mongodb.svg";
+import banner5 from "../../assets/react.svg";
+import banner6 from "../../assets/nodejs.svg";
+import banner7 from "../../assets/expres.js.png";
+import banner8 from "../../assets/mongodb.svg";
+import banner9 from "../../assets/firebase.svg";
+import banner10 from "../../assets/github2.svg";
+import bg from "../../assets/834_prev_ui (1).png";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import "./banner.css";
 import PDFDownloadButton from "../PDFDownloadButton";
@@ -22,7 +23,7 @@ const Banner = () => {
   }, []);
 
   return (
-    <div className="h-screen relative text-secondary font-clashDisplay font-semibold">
+    <div className="h-screen relative text-secondary">
       <div className="bg-gray-900 h-full  relative -z-50 py-20">
         <Particles
           className="w-full h-full absolute top-0 -z-50"
@@ -43,7 +44,7 @@ const Banner = () => {
               },
               modes: {
                 push: {
-                  quantity: 3,
+                  quantity: 1,
                 },
                 repulse: {
                   distance: 100,
@@ -93,18 +94,19 @@ const Banner = () => {
           }}
         />
       </div>
-      <div className="absolute left-0 top-12 sm:top-24 lg:top-0 w-full h-full lg:py-20">
-        <div className="h-full max-w-7xl mx-5 md:mx-10 xl:mx-auto flex flex-col-reverse lg:flex-row lg:items-center sm:gap-8 lg:gap-16">
-          <div className="flex-1 text-2xl md:text-5xl text-center lg:text-start">
-            <h3>Hi ,</h3>
-            <h3 className="my-2 lg:mb-5">
-              I&apos;m
-              <span className="mx-2 lg:mx-5">Md.</span> <span> Nuruzzaman</span>
-            </h3>
-            <h3 className="text-primary text-2xl md:text-3xl mt-2 lg:mt-5 mb-8 lg:mb-10">
+      <div className="absolute left-0 top-16 lg:top-0 w-full h-full">
+        <div className="h-full max-w-7xl mx-5 md:mx-10 xl:mx-auto flex flex-col-reverse lg:flex-row lg:items-center">
+          <div className="flex-1 text-center lg:text-start">
+            <h3 className="text-xl sm:text-2xl font-semibold">Hello !</h3>
+            <h3 className="text-primary flex flex-col sm:flex-row items-center justify-center lg:justify-start sm:gap-3 font-bold text-2xl sm:text-3xl xl:text-4xl mt-2 mb-6 sm:mb-8 lg:mb-10">
+              <span className="text-secondary">I am</span>
               <Typewriter
                 options={{
-                  strings: ["Junior Web Developer", "Junior React Developer"],
+                  strings: [
+                    "Md. Nuruzzaman",
+                    "Junior Web Developer",
+                    "Junior React Developer",
+                  ],
                   autoStart: true,
                   loop: true,
                 }}
@@ -113,7 +115,7 @@ const Banner = () => {
             <div className="flex items-center justify-center lg:justify-start  flex-wrap">
               <a
                 href="#contact"
-                className="btn btn-sm h-10 bg-primary hover:bg-primary text-secondary border-none rounded font-medium"
+                className="btn btn-sm sm:h-10 bg-primary hover:bg-primary text-secondary border-none rounded font-medium z-10"
               >
                 <BsFillTelephoneFill />
                 Contact Me
@@ -122,58 +124,112 @@ const Banner = () => {
               <PDFDownloadButton />
             </div>
           </div>
-          <div className="flex-1 h-full w-full flex items-center justify-center overflow-hidden select-none">
-            <div className="circular-container w-[240px] h-[240px] sm:w-[300px] sm:h-[300px]  lg:w-[400px] lg:h-[400px]">
-              <img
-                className="img1 w-[35px] h-[35px] sm:w-[40px] sm:h-[40px] lg:w-[60px] lg:h-[60px]"
-                src={banner1}
-                alt=""
-              />
-              <img
-                className="img2 w-[35px] h-[35px] sm:w-[40px] sm:h-[40px] lg:w-[60px] lg:h-[60px]"
-                src={banner2}
-                alt=""
-              />
-              <img
-                className="img3 w-[35px] h-[35px] sm:w-[40px] sm:h-[40px] lg:w-[60px] lg:h-[60px]"
-                src={banner3}
-                alt=""
-              />
-              <img
-                className="img4 w-[35px] h-[35px] sm:w-[40px] sm:h-[40px] lg:w-[60px] lg:h-[60px]"
-                src={banner4}
-                alt=""
-              />
-              <img
-                className="img4 w-[35px] h-[35px] sm:w-[40px] sm:h-[40px] lg:w-[60px] lg:h-[60px]"
-                src={banner5}
-                alt=""
-              />
-              <img
-                className="img4 w-[35px] h-[35px] sm:w-[40px] sm:h-[40px] lg:w-[60px] lg:h-[60px]"
-                src={banner6}
-                alt=""
-              />
-              <img
-                className="img4 w-[35px] h-[35px] sm:w-[40px] sm:h-[40px] lg:w-[60px] lg:h-[60px]"
-                src={banner7}
-                alt=""
-              />
-              <img
-                className="img4 w-[35px] h-[35px] sm:w-[40px] sm:h-[40px] lg:w-[60px] lg:h-[60px]"
-                src={banner8}
-                alt=""
-              />
-              <img
-                className="img4 w-[35px] h-[35px] sm:w-[40px] sm:h-[40px] lg:w-[60px] lg:h-[60px]"
-                src={banner9}
-                alt=""
-              />
-              <img
-                className="img4 w-[35px] h-[35px] sm:w-[40px] sm:h-[40px] lg:w-[60px] lg:h-[60px]"
-                src={banner10}
-                alt=""
-              />
+          <div className="flex items-center justify-center select-none">
+            <img className="w-80 sm:w-96 lg:w-full" src={bg} alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div className="absolute w-full bottom-0">
+        <div className="scroll-container">
+          <div className="circular-container">
+            <div className="w-32 h-32 flex flex-col items-center justify-center gap-3 shadow-gray-950 rounded-btn">
+              <img className="img1 w-8 h-8" src={banner1} alt="" />
+              <h3 className="font-semibold">HTML</h3>
+            </div>
+
+            <div className="w-32 h-32 flex flex-col items-center justify-center gap-3 shadow-gray-950 rounded-btn">
+              <img className="img2 w-8 h-8" src={banner2} alt="" />
+              <h3 className="font-semibold">CSS</h3>
+            </div>
+
+            <div className="w-32 h-32 flex flex-col items-center justify-center gap-3 shadow-gray-950 rounded-btn">
+              <img className="img3 w-8 h-8" src={banner3} alt="" />
+              <h3 className="font-semibold">Tailwind Css</h3>
+            </div>
+
+            <div className="w-32 h-32 flex flex-col items-center justify-center gap-3 shadow-gray-950 rounded-btn">
+              <img className="img4 w-8 h-8" src={banner4} alt="" />
+              <h3 className="font-semibold">JavaScript</h3>
+            </div>
+
+            <div className="w-32 h-32 flex flex-col items-center justify-center gap-3 shadow-gray-950 rounded-btn">
+              <img className="img5 w-8 h-8" src={banner5} alt="" />
+              <h3 className="font-semibold">React</h3>
+            </div>
+
+            <div className="w-32 h-32 flex flex-col items-center justify-center gap-3 shadow-gray-950 rounded-btn">
+              <img className="img6 w-8 h-8" src={banner6} alt="" />
+              <h3 className="font-semibold">Node.js</h3>
+            </div>
+
+            <div className="w-32 h-32 flex flex-col items-center justify-center gap-3 shadow-gray-950 rounded-btn">
+              <img className="img7 w-8 h-8" src={banner7} alt="" />
+              <h3 className="font-semibold">Express.js</h3>
+            </div>
+
+            <div className="w-32 h-32 flex flex-col items-center justify-center gap-3 shadow-gray-950 rounded-btn">
+              <img className="img8 w-8 h-8" src={banner8} alt="" />
+              <h3 className="font-semibold">MongoDB</h3>
+            </div>
+            <div className="w-32 h-32 flex flex-col items-center justify-center gap-3 shadow-gray-950 rounded-btn">
+              <img className="img9 w-8 h-8" src={banner9} alt="" />
+              <h3 className="font-semibold">Firebase</h3>
+            </div>
+
+            <div className="w-32 h-32 flex flex-col items-center justify-center gap-3 shadow-gray-950 rounded-btn">
+              <img className="img10 w-8 h-8" src={banner10} alt="" />
+              <h3 className="font-semibold">Github</h3>
+            </div>
+          </div>
+          <div className="circular-container">
+            <div className="w-32 h-32 flex flex-col items-center justify-center gap-3 shadow-gray-950 rounded-btn">
+              <img className="img1 w-8 h-8 " src={banner1} alt="" />
+              <h3 className="font-semibold">HTML</h3>
+            </div>
+
+            <div className="w-32 h-32 flex flex-col items-center justify-center gap-3 shadow-gray-950 rounded-btn">
+              <img className="img2 w-8 h-8" src={banner2} alt="" />
+              <h3 className="font-semibold">CSS</h3>
+            </div>
+
+            <div className="w-32 h-32 flex flex-col items-center justify-center gap-3 shadow-gray-950 rounded-btn">
+              <img className="img3 w-8 h-8" src={banner3} alt="" />
+              <h3 className="font-semibold">Tailwind Css</h3>
+            </div>
+
+            <div className="w-32 h-32 flex flex-col items-center justify-center gap-3 shadow-gray-950 rounded-btn">
+              <img className="img4 w-8 h-8" src={banner4} alt="" />
+              <h3 className="font-semibold">JavaScript</h3>
+            </div>
+
+            <div className="w-32 h-32 flex flex-col items-center justify-center gap-3 shadow-gray-950 rounded-btn">
+              <img className="img5 w-8 h-8" src={banner5} alt="" />
+              <h3 className="font-semibold">React</h3>
+            </div>
+
+            <div className="w-32 h-32 flex flex-col items-center justify-center gap-3 shadow-gray-950 rounded-btn">
+              <img className="img6 w-8 h-8" src={banner6} alt="" />
+              <h3 className="font-semibold">Node.js</h3>
+            </div>
+
+            <div className="w-32 h-32 flex flex-col items-center justify-center gap-3 shadow-gray-950 rounded-btn">
+              <img className="img7 w-8 h-8" src={banner7} alt="" />
+              <h3 className="font-semibold">Express.js</h3>
+            </div>
+
+            <div className="w-32 h-32 flex flex-col items-center justify-center gap-3 shadow-gray-950 rounded-btn">
+              <img className="img8 w-8 h-8" src={banner8} alt="" />
+              <h3 className="font-semibold">MongoDB</h3>
+            </div>
+            <div className="w-32 h-32 flex flex-col items-center justify-center gap-3 shadow-gray-950 rounded-btn">
+              <img className="img9 w-8 h-8" src={banner9} alt="" />
+              <h3 className="font-semibold">Firebase</h3>
+            </div>
+
+            <div className="w-32 h-32 flex flex-col items-center justify-center gap-3 shadow-gray-950 rounded-btn">
+              <img className="img10 w-8 h-8" src={banner10} alt="" />
+              <h3 className="font-semibold">Github</h3>
             </div>
           </div>
         </div>

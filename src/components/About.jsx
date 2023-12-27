@@ -3,7 +3,7 @@ import PDFDownloadButton from "./PDFDownloadButton";
 
 const About = () => {
   return (
-    <div id="about" className="py-20 bg-gray-900 text-secondary">
+    <div id="about" className="pt-24 lg:py-20 bg-gray-900 text-secondary">
       <div className="max-w-7xl mx-5 md:mx-10 xl:mx-auto">
         <h3 className="text-4xl text-center font-clashDisplay font-semibold underline underline-offset-8 decoration-primary">
           About Me
@@ -13,11 +13,11 @@ const About = () => {
             <img src={image} alt="" />
           </div>
           <div className="flex-1">
-            <h3 className="text-2xl font-bold">Hello , </h3>
             <p>
-              I&apos;m Md. Nuruzzaman, a devoted MERN Stack Developer passionate
-              about bringing ideas to life through code. Freshly graduated with
-              my Higher Secondary Certificate (HSC), I&apos;m on an exhilarating
+              <span className="text-xl font-bold">Hello , </span> I&apos;m Md.
+              Nuruzzaman, a devoted MERN Stack Developer passionate about
+              bringing ideas to life through code. Freshly graduated with my
+              Higher Secondary Certificate (HSC), I&apos;m on an exhilarating
               learning journey at{" "}
               <a
                 href="https://www.programming-hero.com/"
@@ -63,3 +63,19 @@ const About = () => {
 };
 
 export default About;
+
+{
+  /* <h3 className="text-2xl font-bold">Education</h3>
+            <div className="flex items-center justify-between">
+              <div className="">
+                <h3 className="font-bold">
+                  Higher Secondary Certificate (HSC)
+                </h3>
+                <p>Govt. Bangabandhu College, Pallabi</p>
+              </div>
+              <div className="flex flex-col items-end justify-center">
+                <p>2020 – 2022</p>
+                <p>Dhaka, Banglades</p>
+              </div>
+            </div> */
+}
